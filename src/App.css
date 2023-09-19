@@ -1,38 +1,229 @@
-.App {
-  text-align: center;
+@import url("https://fonts.googleapis.com/css?family=Rubik:400,500,700&display=swap");
+body {
+  background-color: #f7f8f9;
+  text-align: left;
+  font-family: "Rubik", sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+/* LandingPage.css */
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
+.landing-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 20px;
   min-height: 100vh;
+  text-align: left;
+}
+
+.landing-content {
+  flex: 1;
+  margin-top: 22rem;
+  margin-bottom: -2rem;
+}
+
+.landing-buttons {
+  width: 100%;
+  text-align: left;
+}
+
+.create,
+.Login {
+  background: #6c25ff;
+  border-radius: 6px;
+  opacity: 1;
+  width: 100%;
+  height: 46px;
+  border: none;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: medium;
+  line-height: 17px;
+  letter-spacing: 0px;
+  color: white;
+  margin-bottom: 10px;
+}
+
+.centered-container {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: left;
+  height: 50vh;
+  margin-top: 10px;
+}
+
+/* .centered-buttons {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  margin-top: 20px;
+} */
+
+/* signup page */
+
+/* inpiut fielfd */
+input {
+  border: 1px solid gray;
+  border-radius: 6px;
+  position: relative;
+  width: 200px;
+  margin: 10px;
+  line-height: 6ex;
+  padding: 6px;
+}
+
+label {
+  position: absolute;
+  top: 0.2ex;
+  z-index: 1;
+  left: 1em;
+  background-color: white;
+  padding: 0 1px;
+  color: #6C25FF;
+}
+
+.rdio {
+  display: flex;
+  flex-direction: row;
+  padding: -11px;
+  flex-wrap: nowrap;
+  align-content: center;
+  align-items: center;
+  justify-content: space-around;
+  width: 225px;
+}
+
+.textFld {
+  width: 100%;
+  height: 2rem;
+  margin-left: auto;
+}
+.Loginp {
+  background: #cbcbcb;
+  border-radius: 6px;
+  opacity: 1;
+  width: 103%;
+  height: 46px;
+  border: none;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: medium;
+  line-height: 17px;
+  letter-spacing: 0px;
+  color: white;
+  margin-bottom: 10px;
+}
+
+.Login {
+  background: #6c25ff4b 0% 0% no-repeat padding-box;
+  border-radius: 6px;
+  opacity: 1;
+  width: 100%;
+  height: 46px;
+  border: none;
+  font-size: 16px;
+  font-style: normal normal medium 16px/17px Rubik;
+  letter-spacing: 0px;
+  color: #1d2226;
+  opacity: 1;
+}
+
+.create {
+  background: #6c25ff 0% 0% no-repeat padding-box;
+  border-radius: 6px;
+  opacity: 1;
+  width: 100%;
+  height: 46px;
+  border: none;
+  font-size: 16px;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+/* ProfilePage.css */
+
+.profile-container {
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  max-width: 400px;
+  margin: 0 auto;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.profile-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.profile-image {
+  width: 80px;
+  height: 80px;
+  background-color: #007bff;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-right: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  color: white;
+}
+
+.profile-letters {
+  width: 80px;
+  height: 80px;
+  /* background-color: #a0b6cd; */
+  border-radius: 50%;
+  overflow: hidden;
+  margin-right: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  color: white;
+}
+
+.profile-letters::before {
+  content: attr(data-letters);
+}
+
+.profile-placeholder {
+  width: 80px;
+  height: 80px;
+  background-color: #ccc;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-right: 20px;
+}
+
+.profile-details {
+  flex: 1;
+  text-align: left;
+}
+
+.profile-text {
+  text-align: left;
+}
+
+button {
+  background-color: #6C25FF;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  margin: 10px 0;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.dotted-line {
+  border-top: 1px dotted #ccc;
+}
+
+.input-wrapper {
+  position: relative;
 }
