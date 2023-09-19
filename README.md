@@ -1,5 +1,5 @@
 ## Educase  Assignment
-This is a web application project created using the React framework, specifically utilizing React Router DOM for easy page navigation. The project includes four different components: Welcome Page, Signup Page, Login Page, and Dashboard. Additionally, Toastify has been implemented to enhance the user experience with notification messages.
+This is a web application project created using the React framework, specifically utilizing React Router DOM for easy page navigation. The project includes four different components:Landing Page, Login Page, SignupPage, and  Profile Page. Additionally, Toastify has been implemented to enhance the user experience with notification messages.
 
 ## Project Overview
 Framework: React
