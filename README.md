@@ -6,9 +6,9 @@ Framework: React
 
 Routing: React Router DOM
 
-Components: Landing Page
-            Login Page
-            Profile Page
+Components: Landing Page,
+            Login Page,
+            Profile Page,
             SignupPage
 
 User Experience Enhancement: Toastify for notifications
@@ -21,7 +21,7 @@ Clone the repository to your local machine:
   git clone https://github.com/Ankit0315/EDUCASE-TASK.git
 Navigate to the project directory:
 
-  cd educase-coding-assignment
+  cd educase-task
 Install dependencies
 
   npm install
